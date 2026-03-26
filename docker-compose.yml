@@ -100,10 +100,11 @@ services:
   frontend:
     build: ./frontend/suilens-frontend
     ports:
-      - "5173:5173"
+      - "5180:5173"
     environment:
       VITE_CATALOG_API: http://localhost:3001
       VITE_ORDER_API: http://localhost:3002
+      VITE_NOTIFICATION_WS: ws://localhost:3003/ws
 
 volumes:
   catalog_pgdata:
