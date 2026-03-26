@@ -124,9 +124,9 @@ kubectl apply -f k8s/notification-service.yaml
 kubectl apply -f k8s/frontend.yaml
 ```
 
-### kubectl get pods -o wide
+### kubectl get nodes -o wide & kubectl get pods -o wide
 
-![kubectl get pods](screenshots/09-kubectl-get-pods.png)
+![kubectl get nodes and pods](screenshots/09-kubectl-get-pods.png)
 
 ## GitHub Repository
 
